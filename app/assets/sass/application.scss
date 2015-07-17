@@ -1,6 +1,7 @@
 // Import GOV.UK elements, this will import the frontend toolkit and some base styles.
 // Take a look at elements.scss to see which files are imported.
 @import 'elements';
+@import '_grid_layout';
 
 // Set up your main content area <main id="content">
 // This will give you a full width content block
@@ -40,3 +41,11 @@
    background-image: url("http://i.ytimg.com/vi/oeFAKFJQzek/maxresdefault.jpg"); 
   color: white;
   }
+  
+ .row {
+   @extend %grid-row;
+ }
+  
+.col {
+   @include grid-column( 1/2 );
+}
