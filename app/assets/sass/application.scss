@@ -28,11 +28,6 @@
   }
   // Remove GOV.UK footer styles
   
-  body {
-   background-image: url("http://i.ytimg.com/vi/oeFAKFJQzek/maxresdefault.jpg"); 
-  color: white;
-  }
-  
   }
   #footer {
     border: 0;
@@ -42,3 +37,9 @@
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you,
 // either add and import new partial files, or modify those in GOV.UK elements to fit your user needs.
+
+  
+  body {
+   background-image: url("http://i.ytimg.com/vi/oeFAKFJQzek/maxresdefault.jpg"); 
+  color: white;
+  }
