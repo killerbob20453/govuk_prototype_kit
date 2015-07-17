@@ -27,6 +27,13 @@
     font-family: Arial !important;
   }
   // Remove GOV.UK footer styles
+  
+  body {
+   background-image: url("http://i.ytimg.com/vi/oeFAKFJQzek/maxresdefault.jpg"); 
+  color: white;
+  }
+  
+  }
   #footer {
     border: 0;
     background: $white;
